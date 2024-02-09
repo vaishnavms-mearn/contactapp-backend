@@ -69,7 +69,7 @@ const deleteContact = (id) => {
         else{
                 return {
                     statusCode:404,
-                    message:'cant find employee'
+                    message:'cant find contact'
                 }
         }
     })
